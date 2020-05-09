@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts,bm}
+\usepackage{bbm}
+\usepackage{tikz}
+
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+ 
+
+\newcommand{\MRS}{\text{MRS}}
+\newcommand{\sgn}{\text{sgn}}
+\newcommand{\st}{\text{ s.t. }}
+\newcommand{\sa}{\sigma\text{-algebra }}
+\newcommand{\sas}{\sigma\text{-algebras }}
+\newcommand{\fs}{\text{ f.s. }}
+\newcommand{\io}{\text{ infinitely often }}
+\newcommand{\as}{\text{ a.s. }}
+\newcommand{\pas}{\text{ a.s. } \Prob}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ifff}{\text{ iff }}
+\newcommand{\fin}{\text{ finite }}
+\newcommand{\Om}{\Omega}
+
+\newcommand{\1}[1]{\mathds{1}\left[#1\right]}
+
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\Ex}{\mathop{E}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\G}{\mathcal{G}}
+\newcommand{\He}{\mathcal{H}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\J}{\mathcal{J}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\Le}{\mathcal{L}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\p}{2^{\mathcal{X}}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Y}{\mathcal{Y}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Z}{\mathbb{Z}}
+
+
+
+
+
+
+\newcommand{\contradiction}{%
+  \ensuremath{{\Rightarrow\mspace{-2mu}\Leftarrow}}%
+}
+
+\newenvironment{myproof}[1][\proofname]{\proof[#1]\mbox{}\\*}{\endproof}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{exercise}{Exercise}
+\newtheorem{prop}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{defn}{Definition}[section]
+
+
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\begin{document}
+\title{Math Review for CPSC226, Stanford}
+\author{Assorted Collaborators}
+\maketitle
+
+\end{document}
